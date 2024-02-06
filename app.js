@@ -50,47 +50,31 @@ const vacant = addKeyword(['4']).addAnswer(
     null,
 );
 
-const information_academic = addKeyword(['5']).addAnswer(
-    [
+const information_academic = addKeyword(['5']).addAnswer([
+    '*Coordinadora Académica*',
+    'Celular: 3172737832',
+    'Extensión: 102',
+    '',
+    '*Bienestar y Convivencia*',
+    'Celular: 31524424827',
+    'Extensión: 103',
+    '',
+    'Escribe *inicio* para regresar al menú principal.'
+], null, null);
 
-        '*Coordinadora academica* -  Cel: 3172737832 - 3387829 extensión 102\n',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
 
-const Wellbeing_coexistence = addKeyword(['6']).addAnswer(
-    [
+const transport = addKeyword(['6']).addAnswer([
+    '*Transporte - Contacto de John Faber:*',
+    'Celular: 3127765068',
+    '',
+    '*Restaurante - Contacto de Alexander:*',
+    'Celular: 3219930474',
+    '',
+    'Escribe *inicio* para regresar al menú principal.'
+], null, null);
 
-        '*Bienestar y Convivencia* -  Cel: 31524424827 - 3387829 extensión 103\n',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
 
-const transport = addKeyword(['7']).addAnswer(
-    [
-
-        '*John Faber* -  Cel:  3127765068\n',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
-
-const restaurant = addKeyword(['8']).addAnswer(
-    [
-
-        '*Alexander* -  Cel:  3219930474\n',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
-
-const users_password = addKeyword(['9']).addAnswer(
+const users_password = addKeyword(['7']).addAnswer(
     [
 
         '*Educacity* -  comunicate al 3176641476 - 3387829\n',
@@ -100,27 +84,18 @@ const users_password = addKeyword(['9']).addAnswer(
     null,
 );
 
-const emails_institute = addKeyword(['a']).addAnswer(
-    [
+const emails_institute = addKeyword(['8']).addAnswer([
+    '*Correos en la plataforma de Educacity*:',
+    '- Para solicitar información, escribe tu solicitud como "Claudia a este numero".',
+    '',
+    '*Clases extracurriculares - Contacta a Bibiena*:',
+    'Teléfono: 3387829',
+    'Extensión: 114',
+    '',
+    'Escribe *inicio* para regresar al menú principal.'
+], null, null);
 
-        '*Educacity* -  escribe tu solicitud como Claudia\n',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
-
-const class_extracorriculares = addKeyword(['b']).addAnswer(
-    [
-
-        '*Bibiena*: 3387829 extesnión 114',
-        'Escribe *inicio* para regresar al menú principal',
-    ],
-    null,
-    null,
-);
-
-const info_comunion = addKeyword(['c']).addAnswer(
+const info_comunion = addKeyword(['9']).addAnswer(
     [
 
         'Te envia la confirmación de solicitud a tu correo',
@@ -131,35 +106,33 @@ const info_comunion = addKeyword(['c']).addAnswer(
     null,
 );
 
-const exit_bot = addKeyword(['d', 'muchas gracias']).addAnswer([
+const exit_bot = addKeyword(['salir', 'muchas gracias', 'gracias']).addAnswer([
     'Te agradecemos por utilizar nuestros servicios. Si en el futuro tienes más preguntas o necesitas asistencia, no dudes en contactarnos. ¡Que tengas un día excepcional!\n',
     'Si necesitas información, escribe *inicio*'
-]);
+], null, null);
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'inicio']).addAnswer([
-    'Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'inicio', 'como esta', 'hola como esta']).addAnswer([
+    '🏫Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
 ]).addAnswer(
     [
-        '*Digite el número o letra asociado a la acción que necesita realizar*',
+        '*Digite el número asociado a la acción que necesita realizar*',
         '1. Para solicitar los pasos de los certificados de los estudiantes.',
         '2. Para conocer los pasos de la admisión preinscrita.',
         '3. Para visualizar costos e información del economato.',
-        '4. Para obtener un número y comunicarte con nuestro equipo de trabajo',
-        '5. Para obtener el número de la coordinación académica',
-        '6. Para obtener el número de bienestar y convivencia',
-        '7. Para obtener el número del transporte',
-        '8. Para obtener el número del restaurante',
-        '9. Para obtener la información de los usuarios y sus contraseñas',
-        'a. Para obtener información sobre correos institucionales',
-        'b. Para obtener información sobre clases extracurriculares',
-        'c. Para obtener información de cursos de la primera comunión',
-        'd. Salir'
+        '4. Para obtener el número y comunicarte con nuestro equipo de trabajo',
+        '5. Para obtener el número de la coordinación académica y bienestar de convivencia',
+        '6. Para obtener el número del transporte y el restaurante',
+        '7. Para obtener la información de los usuarios y sus contraseñas',
+        '8. Para obtener información sobre correos institucionales y clases extracurriculares',
+        '9. Para obtener información de cursos de la primera comunión',
+        'Escribe *salir* para cerrar el menu\n',
+        '*📝Nota*: En caso de no obtener las respuestas deseada, puede volver a escribir "inicio" y luego especificar la acción que prefiera conocer.'
     ],
     null,
     null,
-    [certified_steps, admision, commissary_costs, vacant, information_academic, Wellbeing_coexistence, transport, restaurant,
-        users_password, emails_institute, class_extracorriculares, info_comunion, exit_bot]
-);
+    [certified_steps, admision, commissary_costs, vacant, information_academic, transport,
+        users_password, emails_institute, info_comunion, exit_bot]
+)
 
 const main = async () => {
     const adapterDB = new MockAdapter();

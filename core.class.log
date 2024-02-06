@@ -1,16 +1,16 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573176641476@s.whatsapp.net',
+    remoteJid: '573217047948@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0927558FC743D3A70F3',
+    id: '3EB0D75862A06C52B4FBAC',
     participant: undefined
   },
-  messageTimestamp: 1707161850,
-  pushName: '🌹Secretaria Bethlemitas🌹',
+  messageTimestamp: 1707224710,
+  pushName: 'Andrés Gómez Quiroga',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'menu',
+      text: 'nota',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -19,18 +19,18 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'menu',
-  from: '573176641476'
+  body: 'nota',
+  from: '573217047948'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573176641476@s.whatsapp.net',
+    remoteJid: '573217047948@s.whatsapp.net',
     fromMe: false,
-    id: '3EB043695092754F6C2CDB',
+    id: '3EB0D629699A4B06053352',
     participant: undefined
   },
-  messageTimestamp: 1707161858,
-  pushName: '🌹Secretaria Bethlemitas🌹',
+  messageTimestamp: 1707224714,
+  pushName: 'Andrés Gómez Quiroga',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
@@ -44,12 +44,12 @@
     }
   },
   body: 'inicio',
-  from: '573176641476'
+  from: '573217047948'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  keyword: 'key_b3217cec-4014-4bd9-ae21-0778461b746f',
-  answer: 'Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
+  ref: 'ans_26cdcf22-2a5e-454d-8737-e4067d293b34',
+  keyword: 'key_47745b2d-b7cd-429c-8e1d-37d40b446cf0',
+  answer: '🏫Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
   options: {
     media: null,
     buttons: [],
@@ -62,152 +62,24 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9820eb68cb6b1f18785b881d72b812f8'
+  refSerialize: 'cb871e02d9d0fe88b2fe03e65351e9d6'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a90c0e62-7a2f-437a-8aab-24da02bfb2d8',
-  keyword: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  answer: '*Digite el número o letra asociado a la acción que necesita realizar*\n' +
+  ref: 'ans_4bff1ca0-fd79-4747-970c-a40670943635',
+  keyword: 'ans_26cdcf22-2a5e-454d-8737-e4067d293b34',
+  answer: '*Digite el número asociado a la acción que necesita realizar*\n' +
     '1. Para solicitar los pasos de los certificados de los estudiantes.\n' +
     '2. Para conocer los pasos de la admisión preinscrita.\n' +
     '3. Para visualizar costos e información del economato.\n' +
-    '4. Para obtener un número y comunicarte con nuestro equipo de trabajo\n' +
-    '5. Para obtener el número de la coordinación académica\n' +
-    '6. Para obtener el número de bienestar y convivencia\n' +
-    '7. Para obtener el número del transporte\n' +
-    '8. Para obtener el número del restaurante\n' +
-    '9. Para obtener la información de los usuarios y sus contraseñas\n' +
-    'a. Para obtener información sobre correos institucionales\n' +
-    'b. Para obtener información sobre clases extracurriculares\n' +
-    'c. Para obtener información de cursos de la primera comunión\n' +
-    'd. Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9938ddd74bf0a373a80ddc059eb277f5'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0530D707C050E592F46',
-    participant: undefined
-  },
-  messageTimestamp: 1707161866,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '7',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '7',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_78dc624e-d634-420a-89e7-55b0f9773c29',
-  keyword: 'key_d5e9009c-555a-46a9-807e-d3ed69bafa3b',
-  answer: '*John Faber* -  Cel:  3127765068\n' +
+    '4. Para obtener el número y comunicarte con nuestro equipo de trabajo\n' +
+    '5. Para obtener el número de la coordinación académica y bienestar de convivencia\n' +
+    '6. Para obtener el número del transporte y el restaurante\n' +
+    '7. Para obtener la información de los usuarios y sus contraseñas\n' +
+    '8. Para obtener información sobre correos institucionales y clases extracurriculares\n' +
+    '9. Para obtener información de cursos de la primera comunión\n' +
+    'Escribe *salir* para cerrar el menu\n' +
     '\n' +
-    'Escribe *inicio* para regresar al menú principal',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '032016090e9f45f3b4bbe040e6bb30e4'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0A7B8B12D43DCCBA5AE',
-    participant: undefined
-  },
-  messageTimestamp: 1707161870,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'inicio',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'inicio',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  keyword: 'key_b3217cec-4014-4bd9-ae21-0778461b746f',
-  answer: 'Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9820eb68cb6b1f18785b881d72b812f8'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a90c0e62-7a2f-437a-8aab-24da02bfb2d8',
-  keyword: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  answer: '*Digite el número o letra asociado a la acción que necesita realizar*\n' +
-    '1. Para solicitar los pasos de los certificados de los estudiantes.\n' +
-    '2. Para conocer los pasos de la admisión preinscrita.\n' +
-    '3. Para visualizar costos e información del economato.\n' +
-    '4. Para obtener un número y comunicarte con nuestro equipo de trabajo\n' +
-    '5. Para obtener el número de la coordinación académica\n' +
-    '6. Para obtener el número de bienestar y convivencia\n' +
-    '7. Para obtener el número del transporte\n' +
-    '8. Para obtener el número del restaurante\n' +
-    '9. Para obtener la información de los usuarios y sus contraseñas\n' +
-    'a. Para obtener información sobre correos institucionales\n' +
-    'b. Para obtener información sobre clases extracurriculares\n' +
-    'c. Para obtener información de cursos de la primera comunión\n' +
-    'd. Salir',
+    '*📝Nota*: En caso de no obtener las respuestas deseada, puede volver a escribir "inicio" y luego especificar la acción que prefiera conocer.',
   options: {
     media: null,
     buttons: [],
@@ -223,266 +95,10 @@
       [Object], [Object], [Object],
       [Object], [Object], [Object],
       [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
       [Object], [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '9938ddd74bf0a373a80ddc059eb277f5'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0FF6FDAB48C1EA43757',
-    participant: undefined
-  },
-  messageTimestamp: 1707161878,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '9',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '9',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3d5612d8-2c31-4a21-a863-20ce603c5b51',
-  keyword: 'key_74c0fc92-8a83-43f4-a1bf-4911286bcbbf',
-  answer: '*Educacity* -  comunicate al 3176641476 - 3387829\n' +
-    '\n' +
-    'Escribe *inicio* para regresar al menú principal',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '45f8c90f5402e48782a9005aa035e532'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F1A8C540C478B39B15',
-    participant: undefined
-  },
-  messageTimestamp: 1707161882,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'INICIO',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'INICIO',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  keyword: 'key_b3217cec-4014-4bd9-ae21-0778461b746f',
-  answer: 'Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9820eb68cb6b1f18785b881d72b812f8'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a90c0e62-7a2f-437a-8aab-24da02bfb2d8',
-  keyword: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  answer: '*Digite el número o letra asociado a la acción que necesita realizar*\n' +
-    '1. Para solicitar los pasos de los certificados de los estudiantes.\n' +
-    '2. Para conocer los pasos de la admisión preinscrita.\n' +
-    '3. Para visualizar costos e información del economato.\n' +
-    '4. Para obtener un número y comunicarte con nuestro equipo de trabajo\n' +
-    '5. Para obtener el número de la coordinación académica\n' +
-    '6. Para obtener el número de bienestar y convivencia\n' +
-    '7. Para obtener el número del transporte\n' +
-    '8. Para obtener el número del restaurante\n' +
-    '9. Para obtener la información de los usuarios y sus contraseñas\n' +
-    'a. Para obtener información sobre correos institucionales\n' +
-    'b. Para obtener información sobre clases extracurriculares\n' +
-    'c. Para obtener información de cursos de la primera comunión\n' +
-    'd. Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9938ddd74bf0a373a80ddc059eb277f5'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0C68BC42BC9689EC318',
-    participant: undefined
-  },
-  messageTimestamp: 1707161886,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '6',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '6',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_69a18ae3-867b-4154-a73e-e0d6a9311727',
-  keyword: 'key_3d6e75d6-9b81-4015-908f-ae7ee7b4fc07',
-  answer: '*Bienestar y Convivencia* -  Cel: 31524424827 - 3387829 extensión 103\n' +
-    '\n' +
-    'Escribe *inicio* para regresar al menú principal',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9a1ca63cabf41c833b65f515dedd1b43'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573176641476@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0C3EDE670118A218AD2',
-    participant: undefined
-  },
-  messageTimestamp: 1707161890,
-  pushName: '🌹Secretaria Bethlemitas🌹',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Inicio',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Inicio',
-  from: '573176641476'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  keyword: 'key_b3217cec-4014-4bd9-ae21-0778461b746f',
-  answer: 'Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9820eb68cb6b1f18785b881d72b812f8'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a90c0e62-7a2f-437a-8aab-24da02bfb2d8',
-  keyword: 'ans_55027977-0d45-414c-9666-a9ad015a28c2',
-  answer: '*Digite el número o letra asociado a la acción que necesita realizar*\n' +
-    '1. Para solicitar los pasos de los certificados de los estudiantes.\n' +
-    '2. Para conocer los pasos de la admisión preinscrita.\n' +
-    '3. Para visualizar costos e información del economato.\n' +
-    '4. Para obtener un número y comunicarte con nuestro equipo de trabajo\n' +
-    '5. Para obtener el número de la coordinación académica\n' +
-    '6. Para obtener el número de bienestar y convivencia\n' +
-    '7. Para obtener el número del transporte\n' +
-    '8. Para obtener el número del restaurante\n' +
-    '9. Para obtener la información de los usuarios y sus contraseñas\n' +
-    'a. Para obtener información sobre correos institucionales\n' +
-    'b. Para obtener información sobre clases extracurriculares\n' +
-    'c. Para obtener información de cursos de la primera comunión\n' +
-    'd. Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9938ddd74bf0a373a80ddc059eb277f5'
+  refSerialize: '2e3d8c68d482e5283c6fa701d6848545'
 }
