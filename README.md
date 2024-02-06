@@ -1,7 +1,7 @@
 ### CHATBOT Whatsapp (Baileys Provider)
 
 <p align="center">
-  <img width="300" src="./img/logo_colegio.png">
+  <img width="300" src="bot.qr.png">
 </p>
 
 
