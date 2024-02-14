@@ -112,11 +112,12 @@ const exit_bot = addKeyword(['salir', 'muchas gracias', 'gracias']).addAnswer([
 ], null, null);
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'inicio', 'como esta', 'hola como esta']).addAnswer([
-    '🏫Bienvenido al Colegio Bethlemitas. A continuación, te proporcionaremos información sobre nuestros servicios:',
+    'Bienvenido(a) colegio bethlemitas pereira\n',
+    'A continuación, te proporcionaremos información sobre nuestros servicios:',
 ]).addAnswer(
     [
-        '*Digite el número asociado a la acción que necesita realizar*',
-        '1. Para solicitar los pasos de los certificados de los estudiantes.',
+        '*Digita el número asociado a la acción que necesitas realizar: *',
+        '1. Para solicitar certificados de estudiantes.',
         '2. Para conocer los pasos de la admisión preinscrita.',
         '3. Para visualizar costos e información del economato.',
         '4. Para obtener el número y comunicarte con nuestro equipo de trabajo',

@@ -1,0 +1,102 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573042318933@s.whatsapp.net',
+    fromMe: false,
+    id: 'FCD2711C157938D2C031B7B92FD96196',
+    participant: undefined
+  },
+  messageTimestamp: 1707938084,
+  pushName: '~ Andres',
+  broadcast: false,
+  message: Message {
+    conversation: 'Inicio',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: '~ Andres',
+  status: 4,
+  body: 'Inicio',
+  from: '573042318933'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_303fd810-a516-4ac0-919e-6c600c1f9bd9',
+  keyword: 'key_2522d191-063c-489e-a195-e88c4876157c',
+  answer: 'Bienvenido(a) colegio bethlemitas pereira\n' +
+    '\n' +
+    'A continuación, te proporcionaremos información sobre nuestros servicios:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '42ef8a4531d22991924312872f330257'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_88b35f48-3f8f-4438-a95d-3b740998888b',
+  keyword: 'ans_303fd810-a516-4ac0-919e-6c600c1f9bd9',
+  answer: '*Digita el número asociado a la acción que necesitas realizar: *\n' +
+    '1. Para solicitar certificados de estudiantes.\n' +
+    '2. Para conocer los pasos de la admisión preinscrita.\n' +
+    '3. Para visualizar costos e información del economato.\n' +
+    '4. Para obtener el número y comunicarte con nuestro equipo de trabajo\n' +
+    '5. Para obtener el número de la coordinación académica y bienestar de convivencia\n' +
+    '6. Para obtener el número del transporte y el restaurante\n' +
+    '7. Para obtener la información de los usuarios y sus contraseñas\n' +
+    '8. Para obtener información sobre correos institucionales y clases extracurriculares\n' +
+    '9. Para obtener información de cursos de la primera comunión\n' +
+    'Escribe *salir* para cerrar el menu\n' +
+    '\n' +
+    '*📝Nota*: En caso de no obtener las respuestas deseada, puede volver a escribir "inicio" y luego especificar la acción que prefiera conocer.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '55c099aa3b68847b5231c3b0b4b2a8b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573042318933@s.whatsapp.net',
+    fromMe: false,
+    id: '1272C8C2CE557934F6D5DB5FA8127DD5',
+    participant: undefined
+  },
+  messageTimestamp: 1707938120,
+  pushName: '~ Andres',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: '~ Andres',
+  status: 4,
+  body: 'Hola',
+  from: '573042318933'
+}
